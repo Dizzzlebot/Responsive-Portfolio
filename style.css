@@ -225,7 +225,7 @@ input[type=submit] {
 }
 
 nav {
-   margin-right: 7%;
+   margin-right: 5px;
 }
 
 header {
@@ -248,15 +248,18 @@ h3  {
 }
 
 @media screen and (max-width: 768px)  {
-  p {
-    font-size: 1.25rem;
-    max-width: 100%;
-  }
+  
+    .main-section,
+    .sidebar {
+      max-width: 100%;
+  
 }
 
-@media screen and (max-width: 640px)  {
-  p {
-    font-size: 1rem;
-    max-width: 100%;
-  }
+@media screen and (max-width: 640px) {
+  
+    .main-section,
+    .sidebar {
+        max-width: 100%;
+    }
+    
 }
